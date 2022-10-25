@@ -131,15 +131,121 @@ body header div nav {
 
 
 
+/*.what_we_do{*/
+/*    background-color: #000000;*/
+/*}*/
+/*.what{*/
+/*    max-width: 1168px;*/
+/*    margin: auto;*/
+/*}*/
+/*.what h1{*/
+/*    padding-top: 113px;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 40px;*/
+/*    line-height: 42px;*/
+/*    text-align: center;*/
+/*    color: #FFFFFF;*/
+/*}*/
+/*.what h3{*/
+/*    padding-top: 15px;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 23px;*/
+/*    line-height: 30px;*/
+/*    text-align: center;*/
+/*    color: #C0C0C0;*/
+/*}*/
+/*.pics1{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    padding-top: 42px;*/
+/*}*/
+/*.pics2{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    padding: 16px 0 100px ;*/
+/*}*/
+/*.pics1 article{*/
+/*    max-width: 576px;*/
+/*    position: relative;*/
+/*}*/
+/*.pics2 article{*/
+/*    max-width: 576px;*/
+/*    position: relative;*/
+/*}*/
+/*.pics1 article img{*/
+/*    width: 100%;*/
+/*}*/
+/*.pics2 article img{*/
+/*    width: 100%;*/
+/*}*/
+/*.photography{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    margin-top: 401px;*/
+/*    margin-left: 30px;*/
+/*    max-width: 501px;*/
+/*    !*max-height: 169px;*!*/
+/*    align-content: space-between;*/
+/*}*/
+/*.h5{*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 14px;*/
+/*    line-height: 20px;*/
+/*    letter-spacing: 2px;*/
+/*    text-transform: uppercase;*/
+/*    color: #FFFFFF;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*.p{*/
+/*    !*margin-bottom: 10px;*!*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 14px;*/
+/*    line-height: 20px;*/
+/*    color: #C0C0C0;*/
+/*}*/
+/*.button{*/
+/*    position: relative;*/
+/*    margin-top: 17px;*/
+/*    background: #FFFFFF;*/
+/*    border-radius: 14px;*/
+/*    padding: 9px 10px 13px 42px;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 15px;*/
+/*    line-height: 20px;*/
+/*    letter-spacing: 0.4px;*/
+/*    color: #000000;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.photography a:before{*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    display: block;*/
+/*    width: 33px;*/
+/*    height: 33px;*/
+/*    background-color: black;*/
+/*    border-radius: 50%;*/
+/*}*/
 .what_we_do{
     background-color: #000000;
 }
 .what{
-    max-width: 1168px;
+    max-width: 1200px;
     margin: auto;
+    padding: 112px 0 100px;
 }
 .what h1{
-    padding-top: 113px;
+    /*padding-top: 113px;*/
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -159,14 +265,14 @@ body header div nav {
     color: #C0C0C0;
 }
 .pics1{
+    padding: 42px 16px 0;
     display: flex;
     justify-content: space-between;
-    padding-top: 42px;
+    flex-wrap: wrap;
+    max-width: 1168px;
 }
 .pics2{
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 0 100px ;
+    margin-top: 16px;
 }
 .pics1 article{
     max-width: 576px;
@@ -186,9 +292,11 @@ body header div nav {
     position: absolute;
     width: 100%;
     height: 100%;
+    margin-top: 401px;
     margin-left: 30px;
     max-width: 501px;
-    max-height: 169px;
+    box-sizing: border-box;
+    /*max-height: 169px;*/
     align-content: space-between;
 }
 .h5{
@@ -213,6 +321,7 @@ body header div nav {
 }
 .button{
     position: relative;
+    margin-top: 17px;
     background: #FFFFFF;
     border-radius: 14px;
     padding: 9px 10px 13px 42px;
