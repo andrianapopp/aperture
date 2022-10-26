@@ -60,10 +60,11 @@ body header div nav {
 
 
 .aperture{
-    background-image: url("images/nature.svg");
     min-height: 716px;
     background-size: cover;
+    /*background-image: url();*/
 }
+
 .text_nature{
     margin: auto;
     text-align: center;
