@@ -62,7 +62,7 @@ body header div nav {
 .aperture{
     min-height: 716px;
     background-size: cover;
-    /*background-image: url();*/
+    background-image: url(../images/nature.svg);
 }
 
 .text_nature{
