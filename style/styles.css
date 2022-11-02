@@ -362,3 +362,57 @@ body header div nav {
     background-color: black;
     border-radius: 50%;
 }
+
+/*---------Past-Clients----------*/
+
+.pastclients{
+    background-color: #000000;
+}
+.past{
+    margin: auto;
+    max-width: 1200px;
+    padding: 120px 120px 100px;
+}
+.past h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.past h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-top: 15px;
+}
+.clients{
+    padding: 42px 16px 0 16px;
+}
+.clients ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 46px;
+}
+.clients ul li img{
+    max-width: 128px;
+}
+.pastclients .past .clients .owl-carousel .owl-nav .owl-prew{
+    width: 50px;
+    height: 50px;
+    background-color: #C0C0C0;
+}
+.owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    display: flex;
+    justify-content: space-between;
+}
