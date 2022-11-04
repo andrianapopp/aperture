@@ -266,7 +266,7 @@ body header div nav {
     color: #C0C0C0;
 }
 .pics1{
-    padding: 42px 16px 0;
+    padding: 42px 0px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -275,11 +275,11 @@ body header div nav {
 .pics2{
     margin-top: 16px;
 }
-.pics1 article{
+.pics1{
     max-width: 576px;
     position: relative;
 }
-.pics2 article{
+.pics2{
     max-width: 576px;
     position: relative;
 }
@@ -362,6 +362,23 @@ body header div nav {
     background-color: black;
     border-radius: 50%;
 }
+.ui-widget-content{
+    background-color: black;
+    border: none;
+}
+.ui-accordion .ui-accordion-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1168px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    border: none;
+}
+
 
 /*---------Past-Clients----------*/
 
@@ -404,15 +421,20 @@ body header div nav {
 .clients ul li img{
     max-width: 128px;
 }
-.pastclients .past .clients .owl-carousel .owl-nav .owl-prew{
-    width: 50px;
-    height: 50px;
-    background-color: #C0C0C0;
+.owl-carousel
+.owl-carousel .owl-nav button, .owl-carousel .owl-nav button, .owl-carousel button.owl-dot {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 40px;
+
 }
-.owl-nav{
-    position: absolute;
-    width: 100%;
-    top: 35%;
-    display: flex;
-    justify-content: space-between;
-}
+/*.owl-nav{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    top: 35%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
