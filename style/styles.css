@@ -421,7 +421,6 @@ body header div nav {
 .clients ul li img{
     max-width: 128px;
 }
-.owl-carousel
 .owl-carousel .owl-nav button, .owl-carousel .owl-nav button, .owl-carousel button.owl-dot {
     width: 15px;
     height: 15px;
@@ -429,8 +428,11 @@ body header div nav {
     border-radius: 50%;
     margin-top: 15px;
     margin-left: 40px;
-
 }
+.owl-dots{
+    justify-content: center;
+}
+
 /*.owl-nav{*/
 /*    position: absolute;*/
 /*    width: 100%;*/
