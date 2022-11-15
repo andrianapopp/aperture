@@ -641,3 +641,8 @@ body{
 .full-height {
   height: 100vh;
 }
+.nav-but-wrap{
+  @include max-screen(767px){
+    display: inline-block;
+  }
+}
