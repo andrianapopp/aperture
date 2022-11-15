@@ -1,47 +1,11 @@
 @media only screen and (max-width: 767px) {
 
-    .nav__list{
-        flex-direction: column;
-        display: none;
-    }
-    .ui-accordion .ui-accordion-content{
-        display: none;
 
-    }
-    .nav-but-wrap{
-        display: inline-block;
-    }
-    .nav{
-        position: absolute;
-        z-index: 98;
-        right: inherit;
-        left: 0;
-        top: 0;
-    }
-    #background_image{
-        position: unset;
-    }
-    #image_for_media{
-        background-image: url("../images/photoap.jpg");
-        background-size: cover;
-        min-height: 400px;
-        max-width: 390px;
 
-    }
-    #media{
-        left: -30px;
-    }
-    /*.nav__list-item1{*/
-    /*    position: fixed;*/
-    /*}*/
 
-}
+
 @media only screen and (min-width: 768px) {
-    .nav__list{
-        flex-direction: column;
-        display: none;
-    }
+
 }
 @media only screen and (max-width: 320px) {
-
 }
